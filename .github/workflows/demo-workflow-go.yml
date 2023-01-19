@@ -20,4 +20,4 @@ jobs:
       - name: Build
         run: go build -v ./.../api-go/
       - name: Test with the Go CLI
-        run: go test -v example/api-go
+        run: go test -v ./.../api-go
