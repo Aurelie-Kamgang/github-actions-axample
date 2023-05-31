@@ -154,7 +154,7 @@ func handleRequests() {
     // enfin, au lieu de passer dans nil,
     // nous voulons passer notre routeur nouvellement créé comme deuxième
     // argument
-    log.Fatal(http.ListenAndServe(":80", myRouter))
+    log.Fatal(http.ListenAndServe(":8080", myRouter))
 }
 
 //fonction main qui lancera notre API
