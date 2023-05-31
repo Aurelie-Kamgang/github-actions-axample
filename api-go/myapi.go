@@ -162,9 +162,9 @@ func handleRequests() {
 func main() {
 //variable Articles est remplie avec des données que nous pourrons récupérer et>
         Articles = []Article{
-        Article{Id: "1",Title: "Hello", Desc: "Article Description", Content: ">
-        Article{Id: "2",Title: "Hello 2", Desc: "Article Description", Content:>
-    }
+        Article{Id: "1",Title: "Hello", Desc: "Article Description", Content: "12"},
+        Article{Id: "2",Title: "Hello 2", Desc: "Article Description", Content: "13"},
+ }
     handleRequests()
 
 }
